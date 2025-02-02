@@ -10,6 +10,7 @@
     padding: 50px;
     background: #f5f5f5;
     background-color: black;
+    animation: moveBackground 20s linear infinite;
   }
   
   .hero-content {
