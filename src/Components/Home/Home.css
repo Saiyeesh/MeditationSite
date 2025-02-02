@@ -1,0 +1,282 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: #f5f5f5;
+    background-color: black;
+  }
+  
+  .hero-content {
+    flex: 1;
+    max-width: 80%;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    color: white;
+     
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: rgb(174, 173, 173);
+    width: 90%;
+  }
+  
+  .hero button {
+    background: #ff9800;
+    color: white;
+    padding: 8px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .hero button:hover {
+    background: #e68900;
+  }
+  
+  .hero-image {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+
+  .secoundPart{
+    background-image: linear-gradient( black, #33a5f7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .secoundPart h2{
+    color: #0095ff;
+    font-size: 14px;
+    font-weight: none;
+  }
+
+  .secoundPart p{
+    color: whitesmoke;
+    margin-top: -4px;
+  }
+
+  .main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-box :hover{
+    transform: translateY(10px); 
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); 
+  }
+
+  .box{
+    background-color: black;
+    border:0.1px solid #8d8c8b;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    height: 500px;
+    text-align: center;
+  }
+
+  .box h1{
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+  }
+
+  .box p{
+    color: #8d8c8b;
+  }
+
+  .imgbox{
+    padding-top: 30px;
+    height: 200px;
+  }
+
+
+.thirdPart{
+    background-image: linear-gradient(black, rgb(0, 0, 0));
+    background-size: cover;
+}
+
+
+
+.contact-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .image-section {
+    flex: 1;
+    max-width: 50%;
+    margin-right: 20px;
+  }
+  
+  .image-section img {
+    width: 56vw;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .form-section {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #232322;
+    padding: 10px;
+    margin-right: 40px;
+    border-radius: 10px;
+  }
+  
+  .form-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .input-field {
+    margin-bottom: 15px;
+  }
+  
+  .input-field label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: whitesmoke;
+  }
+  
+  .input-field input,
+  .input-field textarea {
+    width: 94%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .input-field textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #6a11cb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2575fc;
+  }
+  
+
+  .footerPart{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .logotxt{
+    display: flex;
+    align-items: center;
+  }
+
+  .logotxt h1{
+    font-size: 25px;
+    color: white;
+  }
+
+  .footer1{
+  width: 15%;
+  }
+
+  .footer1 p{
+    color: #8d8c8b;
+  }
+
+  .footer2{
+    width: 15%;
+  }
+
+  .footer2 h1{
+    color: whitesmoke;
+    font-family: Roboto;
+    font-size: 25px;
+  }
+
+  .footer2 p{
+    color: #8d8c8b;
+  }
+
+  .footer2 p:hover{
+        color: red;
+  }
+
+  .footer3{
+    width: 15%;
+  }
+
+  .footer3 h1{
+    color: whitesmoke;
+    font-family: Roboto;
+    font-size: 25px;
+  }
+
+  .footer3 p{
+    color: #8d8c8b;
+  }
+
+  .footer3 p:hover{
+    color: red;
+  }
+
+  .footer4{
+    width: 15%;
+  }
+
+  .logg{
+    color: white;
+  }
+  .footer4 p{
+    color: #8d8c8b;
+  }
+
+
+
+  .animate-moveBackground {
+    animation: moveBackground 30s infinite linear alternate;
+    background-image: url("../../assets/banner.jpeg");
+  }
