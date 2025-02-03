@@ -75,7 +75,7 @@ const Home = () => {
                 Emotional fitness refers to the ability to understand, manage,
                 and regulate your emotions in a healthy and constructive way.
                 It’s akin to physical fitness but focuses on emotional
-                well-being.
+                well-being.Just like physical fitness strengthens the body, emotional fitness strengthens the mind and heart.
               </p>
               <div className="imgDown">
                 <img src={emo} alt="" className="imgbox" />
@@ -89,7 +89,7 @@ const Home = () => {
                 Creative Visualization is a mental technique that involves
                 imagining or visualizing a desired outcome or goal in vivid
                 detail, as if it has already happened. It taps into the power of
-                the mind to influence reality, or improve well-being.
+                the mind to influence reality, or improve well-being.It’s a powerful technique used by athletes and spiritual practitioners to turn dreams into reality.
               </p>
               <div className="imgDown">
                 <img src={cre} alt="" className="imgbox" />
@@ -102,10 +102,10 @@ const Home = () => {
                 development and self-help circles, which posits that like
                 attracts like. In essence, it suggests that the thoughts and
                 feelings you emit into the universe will attract corresponding
-                experiences, people, and circumstances into your life.
+                experiences, into your life.
               </p>
               <div className="imgDown">
-                <img src={law} alt="" className="imgbox" />
+                <img src={law} alt="" className="imgbox2" />
               </div>
             </div>
           </div>
