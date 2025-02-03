@@ -94,23 +94,31 @@
     padding: 10px;
     margin: 10px;
     width: 30%;
-    height: 500px;
-    text-align: center;
+    height: 400px;
+    column-count: 1;
+    word-wrap: break-word;
+    text-align: justify;
   }
 
   .box h1{
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
   }
 
   .box p{
     color: #8d8c8b;
+    font-size: 14px;
   }
 
   .imgbox{
     padding-top: 30px;
-    height: 200px;
+    height: 180px;
+    text-align: center;
+  }
+
+  .imgDown{
+    text-align: center;
   }
 
 
@@ -124,8 +132,8 @@
 .contact-form-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items:center;
     padding: 20px;
   }
   
@@ -136,9 +144,10 @@
   }
   
   .image-section img {
-    width: 56vw;
-    height: auto;
+    width: 700px;
+    height: 400px;
     border-radius: 8px;
+    margin-left: 50px;
   }
   
   .form-section {
@@ -147,7 +156,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #232322;
+    background-color: #000000;
     padding: 10px;
     margin-right: 40px;
     border-radius: 10px;
@@ -203,7 +212,7 @@
   
 
   .footerPart{
-    background-color: black;
+    background-color: rgb(18, 16, 16);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -268,13 +277,70 @@
     width: 15%;
   }
 
+  .logoIcons{
+    display: flex;
+    align-items: center;
+  }
+
   .logg{
     color: white;
+    margin: 10px;
   }
+
   .footer4 p{
     color: #8d8c8b;
   }
 
+  .footer5{
+    width: 15%;
+  }
+
+  .footer5 h1{
+    font-family: Roboto;
+    font-size: 25px;
+    color: whitesmoke;
+  }
+
+  .borderBox{
+    border: 1px solid #8d8c8b;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #8d8c8b;
+    margin: 10px;
+  }
+
+  .footer-down{
+    background-color: #280a0a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+  }
+
+  .footerleft{
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+
+  .footerleft p{
+    margin: 10px;
+  }
+
+  .footerright{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: white;
+  }
+
+  .footerright p{
+    margin: 10px;
+  }
 
 
   .animate-moveBackground {

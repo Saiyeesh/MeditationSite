@@ -12,11 +12,14 @@ import logo from "../../assets/meditationLogo.png";
 import { TbMapSearch } from "react-icons/tb";
 import { FaPhone } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
+import { FaWindows } from "react-icons/fa";
+import { FaApple } from "react-icons/fa";
+import { BsCCircle } from "react-icons/bs";
 
 import { motion } from "framer-motion";
 const Home = () => {
   return (
-    <> 
+    <>
       <div className="main">
         <div className="hero">
           <div className="hero-content">
@@ -41,13 +44,13 @@ const Home = () => {
             </motion.div>
           </div>
           <motion.div
-        className="hero-image"
-        initial={{ opacity: 0, x: 50 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 2 }}
-      >
-        <img src={img} alt="Meditation" />
-      </motion.div>
+            className="hero-image"
+            initial={{ opacity: 0, x: 50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 2 }}
+          >
+            <img src={img} alt="Meditation" />
+          </motion.div>
         </div>
         <div className="secoundPart">
           <h2>Features</h2>
@@ -60,12 +63,11 @@ const Home = () => {
                 influence or change an individual's thoughts, beliefs,
                 behaviors, and mental patterns. It’s often associated with
                 practices like neuro-linguistic programming (NLP), hypnosis,
-                affirmations, visualization, and self-suggestion.This is a state
-                of heightened awareness where the mind is more receptive to
-                suggestion. Hypnotherapy is often used for changing habits,
-                addressing fears, or overcoming negative thought patterns.
+                affirmations, visualization, and self-suggestion.
               </p>
-              <img src={mind} alt="" className="imgbox" />
+              <div className="imgDown">
+                <img src={mind} alt="" className="imgbox" />
+              </div>
             </div>
             <div className="box">
               <h1>Emotional Fitness</h1>
@@ -73,12 +75,11 @@ const Home = () => {
                 Emotional fitness refers to the ability to understand, manage,
                 and regulate your emotions in a healthy and constructive way.
                 It’s akin to physical fitness but focuses on emotional
-                well-being. Just like physical fitness helps maintain the health
-                of your body, emotional fitness helps keep your emotional state
-                balanced and resilient. It plays a key role in how well you cope
-                with stress, relationships, challenges, and life changes.
+                well-being.
               </p>
-              <img src={emo} alt="" className="imgbox" />
+              <div className="imgDown">
+                <img src={emo} alt="" className="imgbox" />
+              </div>
             </div>
           </div>
           <div className="main-box">
@@ -88,13 +89,11 @@ const Home = () => {
                 Creative Visualization is a mental technique that involves
                 imagining or visualizing a desired outcome or goal in vivid
                 detail, as if it has already happened. It taps into the power of
-                the mind to influence reality, essentially using the power of
-                imagination to bring about physical changes, achieve personal
-                goals, or improve well-being. It is rooted in the idea that our
-                thoughts and mental images can influence our actions, attitudes,
-                and even the world around us.
+                the mind to influence reality, or improve well-being.
               </p>
-              <img src={cre} alt="" className="imgbox" />
+              <div className="imgDown">
+                <img src={cre} alt="" className="imgbox" />
+             </div>
             </div>
             <div className="box">
               <h1>Law of Attraction</h1>
@@ -103,19 +102,18 @@ const Home = () => {
                 development and self-help circles, which posits that like
                 attracts like. In essence, it suggests that the thoughts and
                 feelings you emit into the universe will attract corresponding
-                experiences, people, and circumstances into your life. The core
-                idea is that positive or negative energy (thoughts, beliefs, and
-                emotions) will attract positive or negative outcomes,
-                respectively.
+                experiences, people, and circumstances into your life.
               </p>
-              <img src={law} alt="" className="imgbox" />
+              <div className="imgDown">
+                <img src={law} alt="" className="imgbox" />
+              </div>
             </div>
           </div>
         </div>
         <div className="thirdPart">
-          <div className="contact-form-container">
+           <div className="contact-form-container">
             <div className="image-section">
-              <img src={contact} alt="Contact" />
+              <img src={contact} alt="Contact" className="contact-image"/>
             </div>
             <div className="form-section">
               <h2>Contact Us</h2>
@@ -145,22 +143,14 @@ const Home = () => {
                 <button type="submit">Send Message</button>
               </form>
             </div>
-          </div>
+          </div> 
         </div>
         <div className="footerPart">
           <div className="footer1">
             <div className="logotxt">
               <img src={logo} alt="" className="logo" />
-              <h1>RM</h1>
             </div>
-            <p>
-              Ramu Master, a distinguished Spiritual Science Teacher and the
-              visionary Founder and Chairman of the Dhyana Osmania Foundation
-              and Dhyana Dharma Ashram. With an unwavering commitment to
-              meditation and spiritual science, Ramu Master has been a guiding
-              light for individuals seeking inner peace, self-realization, and
-              holistic well-being.
-            </p>
+            <p>Meditation is the key to unlock the doors of peace.</p>
           </div>
           <div className="footer2">
             <h1>Get Free Sources</h1>
@@ -171,8 +161,7 @@ const Home = () => {
             <p>Bikram Yoga</p>
           </div>
           <div className="footer3">
-            <h1>Home</h1>
-            <p>Articles</p>
+            <p>Home</p>
             <p>Classes</p>
             <p>Shop</p>
             <p>Benifites</p>
@@ -192,6 +181,30 @@ const Home = () => {
               <p>yoga@gmail.com</p>
             </div>
           </div>
+          <div className="footer5">
+            <h1>Get The App</h1>
+            <div>
+              <div className="borderBox">
+                <FaWindows />
+                <p>Windows</p>
+              </div>
+              <div className="borderBox">
+                <FaApple />
+                <p>MacOs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="footer-down">
+          <div className="footerleft">
+            <BsCCircle />
+            <p>RM Meditaion INC. All Rights Reserved</p>
+          </div>  
+          <div className="footerright">
+            <p>Terms of Services</p>
+            <p>Privacy Policy</p>
+            <p>Cookies</p>
+          </div>  
         </div>
       </div>
     </>
