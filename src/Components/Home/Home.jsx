@@ -6,7 +6,7 @@ import law from "../../assets/law.jpeg";
 import mind from "../../assets/mind.jpeg";
 import emo from "../../assets/emo.jpeg";
 import cre from "../../assets/cre.jpeg";
-import contact from "../../assets/contact.jpeg";
+import contact from "../../assets/contactUs.jpg";
 import logo from "../../assets/meditationLogo.png";
 
 import { TbMapSearch } from "react-icons/tb";
@@ -43,14 +43,14 @@ const Home = () => {
               </motion.button>
             </motion.div>
           </div>
-          <motion.div
+          {/* <motion.div
             className="hero-image"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 2 }}
           >
             <img src={img} alt="Meditation" />
-          </motion.div>
+          </motion.div> */}
         </div>
         <div className="secoundPart">
           <h2>Features</h2>
@@ -113,7 +113,7 @@ const Home = () => {
         <div className="thirdPart">
            <div className="contact-form-container">
             <div className="image-section">
-              <img src={contact} alt="Contact" className="contact-image"/>
+              <img src={contact} alt="Contact" />
             </div>
             <div className="form-section">
               <h2>Contact Us</h2>

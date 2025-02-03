@@ -4,31 +4,35 @@
 }
 
 .hero {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
     padding: 50px;
-    background: #f5f5f5;
-    background-color: black;
-    animation: moveBackground 20s linear infinite;
+    background-image: url("../../assets/ban.png");
+    background-size: 1550px 500px;
+    background-repeat: no-repeat;
+    height: 60vh;
   }
   
   .hero-content {
     flex: 1;
     max-width: 80%;
+    padding-left: 50px;
   }
   
   .hero h1 {
     font-size: 2.5rem;
-    color: white;
-     
+    color: orange;
+    width: 550px;
   }
   
   .hero p {
-    font-size: 1.2rem;
+    font-size: 28px;
     margin: 20px 0;
-    color: rgb(174, 173, 173);
-    width: 90%;
+    color: black;
+    width: 70%;
+      font-weight: 400;
+      word-spacing: 5px;
   }
   
   .hero button {
@@ -51,14 +55,13 @@
   }
   
   .hero-image img {
-    width: 100%;
+    width: 90%;
     height: auto;
     border-radius: 10px;
   }
 
 
   .secoundPart{
-    background-image: linear-gradient( black, #33a5f7);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,13 +70,14 @@
   
   .secoundPart h2{
     color: #0095ff;
-    font-size: 14px;
+    font-size: 34px;
     font-weight: none;
   }
 
   .secoundPart p{
-    color: whitesmoke;
-    margin-top: -4px;
+    color: black;
+    margin-top: -14px;
+    font-size: 25px;
   }
 
   .main-box{
@@ -102,6 +106,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 1px 10px grey, -2px 0px 5px grey;;
   }
 
   .box h1{
@@ -114,7 +119,7 @@
   .box p{
     color: black;
     font-size: 14px;
-
+    padding-top: 20px;
   }
 
   .imgbox{
@@ -154,6 +159,7 @@
     justify-content: center;
     align-items:center;
     padding: 20px;
+    background-color: white;
   }
   
   .image-section {
@@ -163,10 +169,11 @@
   }
   
   .image-section img {
-    width: 700px;
-    height: 400px;
+    width: 530px;
+    height: 500px;
     border-radius: 8px;
     margin-left: 50px;
+    padding-left: 40px;
   }
   
   .form-section {
@@ -175,7 +182,6 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #000000;
     padding: 10px;
     margin-right: 40px;
     border-radius: 10px;
@@ -185,7 +191,7 @@
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
-    color: white;
+    color: black;
   }
   
   .input-field {
@@ -197,7 +203,7 @@
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 5px;
-    color: whitesmoke;
+    color: black;
   }
   
   .input-field input,
@@ -207,6 +213,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
+    color: black;
   }
   
   .input-field textarea {
@@ -231,7 +238,7 @@
   
 
   .footerPart{
-    background-color: rgb(18, 16, 16);
+    background-color: rgb(15, 5, 109);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -253,7 +260,7 @@
   }
 
   .footer1 p{
-    color: #8d8c8b;
+    color: white;
   }
 
   .footer2{
@@ -267,7 +274,7 @@
   }
 
   .footer2 p{
-    color: #8d8c8b;
+    color: white;
   }
 
   .footer2 p:hover{
@@ -285,7 +292,7 @@
   }
 
   .footer3 p{
-    color: #8d8c8b;
+    color: white;
   }
 
   .footer3 p:hover{
@@ -307,7 +314,7 @@
   }
 
   .footer4 p{
-    color: #8d8c8b;
+    color: white;
   }
 
   .footer5{
